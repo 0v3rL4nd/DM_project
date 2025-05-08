@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carica il dataset
-df = pd.read_csv("harry_potter_students_enriched.csv")
+df = pd.read_csv("harry_potter_students.csv")
 
 # Trova tutte le colonne che contengono il nome della casa
 house_columns = [col for col in df.columns if any(house in col.lower() for house in ["hufflepuff", "gryffindor", "slytherin", "ravenclaw"])]

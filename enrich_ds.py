@@ -3,7 +3,7 @@ import numpy as np
 import random
 
 # Carica il dataset originale
-df = pd.read_csv("harry_potter_students_20000.csv")
+df = pd.read_csv("non usare.csv")
 
 # --- Nomi eterogenei ---
 names = [
@@ -78,6 +78,6 @@ df["surname"] = surname_column
 df["age"] = age_column
 
 # Salva il nuovo dataset
-df.to_csv("harry_potter_students_enriched.csv", index=False)
+df.to_csv("harry_potter_students.csv", index=False)
 
-print("✅ Dataset arricchito salvato come 'harry_potter_students_enriched.csv'")
+print("✅ Dataset arricchito salvato come 'harry_potter_students.csv'")
