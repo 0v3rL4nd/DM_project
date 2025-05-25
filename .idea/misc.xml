@@ -3,4 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="C:\Users\vogli\miniconda3" />
   </component>
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="3" />
+  </component>
 </project>
